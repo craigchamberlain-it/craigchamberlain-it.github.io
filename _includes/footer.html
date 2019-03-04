@@ -2,12 +2,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
+                    <ul class="">
+                        
+                        <li><a href="tel://{{ site.phone }}"><i class="fas fa-phone"></i>: {{ site.phone }}</a>
+                        </li>
+                        <li><a href="mailto://{{ site.email }}"><i class="far fa-envelope"></i>: {{ site.email }}</a>
+                        </li>
+                    </ul>
                     <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        <li><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
                     </ul>
