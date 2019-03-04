@@ -281,6 +281,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    text-shadow: -3px 2px #{{ site.data.template.color.secondary-dark}};
 }
 
 header .intro-text .intro-lead-in {
@@ -293,7 +294,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
@@ -316,7 +317,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
