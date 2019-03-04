@@ -4,6 +4,7 @@ baseurl: /
 # Site settings
 title: Craig Chamberlain - IT Services
 email: craig.chamberlain11@gmail.com
+phone: +1 07526 825 153
 description: "IT Support, Training and Advice for Home & Business. Personal and professional service in your own home or office."
 
 
@@ -30,10 +31,6 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Sedbergh, UK
-
-email: craig.chamberlain11@gmail.com
-
-mobile: 07526825153
 
 # Build settings
 markdown: kramdown
