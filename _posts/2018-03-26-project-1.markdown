@@ -1,0 +1,17 @@
+---
+title: Peter Liddle - Website & Catalogue
+subtitle: Website Design
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: peterliddle.png
+thumbnail: peterliddle-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Peter Liddle
+category: Web Development
+description: Peter has a 50 year back catalogue of paintings.  We collated information from several paper log books and photographed hundred of paintings to create a digital catalogue and website.
+
+
+
+---
