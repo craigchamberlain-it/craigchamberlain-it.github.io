@@ -10,7 +10,7 @@ alt: image-alt
 project-date: 2018
 client: Sedbergh School
 category: Command Line Utility
-description: Extracting information from one propriety system to another can be tedious and error prone.  At Sedbergh I created a set of tools to query our school database (iSAMS MIS) and cross check this against Active Directory using Microsoft's excellent AD tools for PowerShell.  This slashed the time taken to provision new accounts by days while increasing data consistency.
+description: Extracting information from one proprietary system to another can be tedious and error prone.  At Sedbergh I created a set of tools to query our school database (iSAMS MIS) and cross check this against Active Directory using Microsoft's excellent AD tools for PowerShell.  This slashed the time taken to provision new accounts by days while increasing data consistency.
 
 
 
