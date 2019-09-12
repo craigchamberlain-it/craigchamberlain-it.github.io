@@ -9,6 +9,7 @@ thumbnail: peterliddle-thumbnail.png
 alt: image-alt
 project-date: 2014
 client: Peter Liddle
+website: https://peterliddle.com
 category: Web Development
 description: Peter has a 50 year back catalogue of paintings.  We collated information from several paper log books and photographed hundred of paintings to create a digital catalogue and website.
 
