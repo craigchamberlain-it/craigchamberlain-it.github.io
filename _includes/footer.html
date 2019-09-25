@@ -12,9 +12,9 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4" id="contact">                
+                <div class="col-md-4" id="contact">
                       <ul class="list-unstyled">
-                        <li><a href="tel:{{ site.phone }}"><i class="fas fa-phone"></i>: {{ site.phone }}</a>
+                        <li><a href="tel:{{ site.phone | remove: ' ' }}"><i class="fas fa-phone"></i>: {{ site.phone }}</a>
                         </li>
                         <li><a href="mailto:{{ site.email }}"><i class="far fa-envelope"></i>: {{ site.email }}</a>
                         </li>
