@@ -1,0 +1,15 @@
+---
+title: Sedbergh Lookaround Community Newsletter - Website
+subtitle: Website Design
+layout: default
+modal-id: 3
+date: 2019-03-26
+img: Lookaround.jpg
+thumbnail: Lookaround-thumbnail.jpg
+alt: Sedbergh Lookaround Community Newsletter - Website
+project-date: 2019
+client: Sedbergh Lookaround Community Newsletter
+website: http://sedberghlookaround.org.uk/
+category: Website
+---
+The Sedbergh Lookaround is a community newsletter in the Sedbergh area, run for the community good.  It is primarily distributed in print but various information and the back catalogue are available online.  I modernised an existing site and provided a content management system so the editors can add new editions to the back catalogue.

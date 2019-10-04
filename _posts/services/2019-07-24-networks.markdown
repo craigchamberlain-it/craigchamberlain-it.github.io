@@ -1,0 +1,15 @@
+---
+title: Home and Business Networks
+subtitle: IT Training
+layout: default
+modal-id: 11
+date: 2019-09-30
+img: Networks.jpg
+thumbnail: Networks-thumbnail.jpg
+alt: Home and Business Networks
+project-date: 2019
+category: IT Service
+---
+If you have limited wi-fi coverage in your house, garden or attached property - for example  holiday accommodation - I can specify and install the hardware you need to extend your network.
+
+__Free Consultation & Quote__
