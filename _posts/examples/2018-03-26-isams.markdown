@@ -1,0 +1,18 @@
+---
+title: iSAMS - Active Directory Data Validation Tooling
+subtitle: Custom Powershell Module
+layout: default
+modal-id: 2
+date: 2018-03-26
+img: iSAMS.png
+thumbnail: iSAMS-thumbnail.png
+alt: iSAMS - Active Directory Data Validation Tooling
+project-date: 2018
+client: Sedbergh School
+category: Example
+---
+__Problem:__ Extracting information from one proprietary system and inputting to another can be a tedious and error prone process.  
+
+__Solution:__ When working at a school, I created a set of tools to query our school database (iSAMS MIS) and cross check this against Active Directory using Microsoft's excellent AD tools for PowerShell.  
+
+__Result:__ This slashed the time taken to provision new accounts by days while increasing data consistency meaning students and teachers got the notifications and permissions they needed far more reliably.
