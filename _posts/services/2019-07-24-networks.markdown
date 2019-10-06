@@ -1,7 +1,7 @@
 ---
 title: Home and Business Networks
 subtitle: IT Training
-layout: default
+layout: modal
 modal-id: 11
 date: 2019-09-30
 img: Networks.jpg

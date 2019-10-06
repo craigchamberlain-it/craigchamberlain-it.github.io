@@ -1,7 +1,7 @@
 ---
 title: Transferring to a New Device
 subtitle: IT Service
-layout: default
+layout: modal
 modal-id: 7
 date: 2019-09-30
 img: NewDevice.jpg

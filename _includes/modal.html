@@ -1,0 +1,20 @@
+<h1>{{ page.title }}</h1>
+<hr class="star-primary">
+<a {% if post.website %} href="{{post.website}}" target="_blank" {% endif %}>
+		<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+</a>
+{{ page.content }}
+{% if page.client %}
+<ul class="list-inline item-details">
+    <li>Client:
+        <strong>
+          <a {% if post.website %} href="{{post.website}}" target="_blank" {% endif %}>{{ post.client }}</a>
+        </strong>
+    </li>
+    <li>Date:
+        <strong><a>{{ page.project-date }}</a>
+        </strong>
+    </li>
+</ul>
+{% endif %}
+{% include blockquote.html quote = page.referral.text quoted = page.referral.referrer %}

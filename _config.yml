@@ -1,5 +1,5 @@
 url: https://craigchamberlain.it
-baseurl: 
+baseurl:
 
 # Site settings
 title: Craig Chamberlain - IT Services
@@ -34,4 +34,4 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none

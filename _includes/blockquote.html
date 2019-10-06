@@ -1,0 +1,8 @@
+{% if include.quote %}
+  <blockquote>
+    {{include.quote | markdownify }}
+    {% if include.quoted %}
+      <p class="quoted small strong">{{include.quoted}}</p>
+    {% endif %}
+  </blockquote>
+{% endif %}

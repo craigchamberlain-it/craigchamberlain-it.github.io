@@ -1,7 +1,7 @@
 ---
 title: Reset Forgotten Password
 subtitle: IT Service
-layout: default
+layout: modal
 modal-id: 6
 date: 2019-09-30
 img: PasswordReset.jpg

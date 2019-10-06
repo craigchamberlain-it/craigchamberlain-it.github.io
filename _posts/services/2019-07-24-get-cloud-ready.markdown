@@ -1,7 +1,7 @@
 ---
 title: Keep Your Files Safe - Get Cloud Ready
 subtitle: IT Service
-layout: default
+layout: modal
 modal-id: 9
 date: 2019-09-30
 img: GetCloudReady.jpg

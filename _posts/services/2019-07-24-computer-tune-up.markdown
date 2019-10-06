@@ -1,7 +1,7 @@
 ---
 title: Computer Tune-Up
 subtitle: IT Service
-layout: default
+layout: modal
 modal-id: 8
 date: 2019-09-30
 img: ComputerService.jpg

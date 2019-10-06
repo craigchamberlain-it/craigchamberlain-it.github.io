@@ -1,7 +1,7 @@
 ---
 title: Maria Richter-Trummer Architektur - Holding Page
 subtitle: Website Design
-layout: default
+layout: modal
 modal-id: 4
 date: 2019-07-24
 img: MariaRichter-Trummer.jpg

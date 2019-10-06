@@ -1,7 +1,7 @@
 ---
 title: Training Flashcards
 subtitle: IT Training
-layout: default
+layout: modal
 modal-id: 10
 date: 2019-09-30
 img: TipCards.jpg
