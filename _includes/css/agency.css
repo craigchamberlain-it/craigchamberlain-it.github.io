@@ -699,3 +699,13 @@ blockquote {
 blockquote .quoted {
   color: #{{ site.data.template.color.secondary-dark }};
 }
+
+.carousel-inner > .item {
+    height: 200px;
+    background-color: #bfb2b2;
+}
+
+.carousel-caption {
+    text-shadow: none;
+    color: #{{ site.data.template.color.secondary-dark }};
+}
