@@ -12,4 +12,4 @@ client: Maria Richter-Trummer Architektur
 website: https://richter-trummer.github.io/
 category: Website
 ---
-Maria is an architect practicing in the Unesco Design City of Graz, Austria.  I created a simple holding page based on her business card and also set up a cloud based email service for her domain richter-trummer.com.
+Maria is an architect practicing in the Unesco Design City of Graz, Austria.  I created a simple holding page based on her business card.
