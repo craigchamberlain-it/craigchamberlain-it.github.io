@@ -701,11 +701,16 @@ blockquote .quoted {
 }
 
 .carousel-inner > .item {
-    height: 200px;
+    height: 250px;
     background-color: #bfb2b2;
 }
 
 .carousel-caption {
     text-shadow: none;
     color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.carousel-control > .fas {
+    position: absolute;
+    top: 50%;
 }
