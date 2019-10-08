@@ -2,7 +2,12 @@
   <blockquote>
     {{include.quote | markdownify }}
     {% if include.quoted %}
-      <p class="quoted small strong">{{include.quoted}}</p>
+      <p class="quoted small strong">
+        {{ include.quoted }}
+        {% if include.citation %}
+          <cite title="{{ include.citation }}">{{ include.citation }}</cite>
+        {% endif %}
+      </p>
     {% endif %}
   </blockquote>
 {% endif %}

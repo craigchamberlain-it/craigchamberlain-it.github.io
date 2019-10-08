@@ -5,14 +5,14 @@
 
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    {% assign first = true %}
-    {% for referral in referrals %}
+    {%- assign first = true -%}
+    {%- for referral in referrals -%}
       <li data-target="#{{ id }}" data-slide-to="{% increment my_counter %}" {% if first %}class="active"{% endif %}></li>
-      {% assign first = false %}
-    {% endfor %}
-    {% for referral in site.data.facebook_reviews %}
+      {%- assign first = false -%}
+    {%- endfor -%}
+    {%- for referral in site.data.facebook_reviews -%}
       <li data-target="#{{ id }}" data-slide-to="{% increment my_counter %}"</li>
-    {% endfor %}
+    {%- endfor -%}
   </ol>
 
   <!-- Wrapper for slides -->
@@ -31,7 +31,8 @@
       <div class="item {% if first %}active{% endif %}">
         <img src="img/portfolio/FacebookReview.JPG" class="" alt="Facebook Review">
         <div class="carousel-caption">
-          {% include blockquote.html quote=referral.text quoted=referral.referrer %}
+          {% assign citation = referral.date | date: "%e %B %Y)" | prepend: "(Facebook Review - "%}
+          {% include blockquote.html quote=referral.text quoted=referral.referrer citation=citation   %}
         </div>
       </div>
     {% endfor %}
