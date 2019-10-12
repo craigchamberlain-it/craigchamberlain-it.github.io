@@ -2,11 +2,7 @@
 title: Peter Liddle - Website & Catalogue
 subtitle: Website Design
 layout: modal
-modal-id: 1
-date: 2018-03-26
-img: peterliddle.png
-thumbnail: peterliddle-thumbnail.png
-alt: Peter Liddle - Website & Catalogue
+img: /img/portfolio/peterliddle.png
 project-date: 2014
 client: Peter Liddle
 website: https://peterliddle.com

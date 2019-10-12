@@ -4,8 +4,7 @@ subtitle: IT Training
 layout: modal
 modal-id: 11
 date: 2019-09-30
-img: Networks.jpg
-thumbnail: Networks-thumbnail.jpg
+img: /img/portfolio/Networks.jpg
 alt: Home and Business Networks
 project-date: 2019
 category: IT Service

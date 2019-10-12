@@ -1,0 +1,11 @@
+---
+title: Undo Previous Action
+subtitle: Ctrl + Z
+layout: modal
+img: /img/flashcards/windows10/ctrl-z.png
+category: training-card
+tag: windows10  
+---
+Hold the Control (Ctrl) Key and Press "Z" to undo your previously action.
+
+For example editing some text in a document.

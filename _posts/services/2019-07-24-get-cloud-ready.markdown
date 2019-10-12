@@ -4,8 +4,7 @@ subtitle: IT Service
 layout: modal
 modal-id: 9
 date: 2019-09-30
-img: GetCloudReady.jpg
-thumbnail: GetCloudReady-thumbnail.jpg
+img: /img/portfolio/GetCloudReady.jpg
 alt: Get Cloud Ready
 project-date: 2019
 category: IT Service

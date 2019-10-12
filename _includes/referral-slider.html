@@ -21,7 +21,7 @@
     {% for referral in referrals %}
       <div class="item {% if first %}active{% endif %}">
         {% assign first = false %}
-        <img src="img/portfolio/{{ referral.img }}" class="" alt="{{ referral.alt }}">
+        <img src="{{ referral.img }}" class="" alt="{{ referral.alt }}">
         <div class="carousel-caption">
           {% include blockquote.html quote=referral.referral.text quoted=referral.referral.referrer %}
         </div>

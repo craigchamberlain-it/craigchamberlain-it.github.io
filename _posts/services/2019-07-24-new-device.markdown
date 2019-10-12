@@ -4,8 +4,7 @@ subtitle: IT Service
 layout: modal
 modal-id: 7
 date: 2019-09-30
-img: NewDevice.jpg
-thumbnail: NewDevice-thumbnail.jpg
+img: /img/portfolio/NewDevice.jpg
 alt: Migrating to a New Device
 project-date: 2019
 category: IT Service
