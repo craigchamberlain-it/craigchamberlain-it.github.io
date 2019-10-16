@@ -1,71 +1,35 @@
 ---
-layout: default
+layout: training
+title: Training Resources
+heading: With the Right Skills
+img: /img/header-bg-w10.jpg
+description: |-
+  I have series of flashcards for navigating both Windows 10 and macOS.
+  I will soon add application specific tips and tricks, for example Excel.
+
+  Keyboard shortcuts can save lots of time and help you keep focused on your task -
+  particularly when on a laptop when you do not have a mouse.
+
+  Speed up your work and take the hastle out of simple tasks like printing,
+  copying and pasting.  Working up to more advanced tasks such as minimizing
+  windows and showing your desktop without touching your mouse.
+
 ---
-
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="intro-text">
-            <div class="intro-lead-in">With the right skills</div>
-            <div class="intro-heading">You can do more.</div>
-            <a href="#flashcards" class="btn btn-xl">Start Learning Now</a>
-        </div>
-    </div>
-</header>
-
 <!-- About Training Materials -->
-    <section id="about" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Follow Weekly Tips</h2>
-                    <h3 class="section-subheading text-muted">Sent Directly to Your Inbox</h3>
-                    <p>
-                        Keyboard shortcuts can save lots of time and help you keep focused on your task -
-                        particularly when on a laptop when you do not have a mouse.
-                    </p>
-                    <p>
-                        Speed up your work and take the hastle out of simple tasks like printing,
-                        copying and pasting.  Working up to more advanced tasks such as minimizing
-                        windows showing your desktop.
-                    </p>
-                    <p>
-                        I have series of flashcards for navigating both Windows 10 and macOS.
-                        I will soon add application specific tips and tricks, for example Excel.
-                    </p>
-                </div>
+<section id="about" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About my Training Materials</h2>
+                <h3 class="section-subheading text-muted">Flashcards are a good way to learn.</h3>
+                {{ page.description | markdownify }}
             </div>
-
         </div>
-    </section>
-    <section id="card-collections" class="bg-light-gray">
-        <div class="container alternating-float">
-            <div class="row">
-                <div class="col-md-4">
-                  <img src="/img/portfolio/TipCards.jpg" class="img-responsive img-centered" alt="TipCards.jpg">
-                </div>
-                <div class="col-md-8">
-                  <h1>macOS</h1>
-                  <p>
-                    Everything you need to know.
-                  </p>
-                </div>
 
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                  <img src="/img/portfolio/TipCards.jpg" class="img-responsive img-centered" alt="TipCards.jpg">
-                </div>
-                <div class="col-md-8">
-                  <h1>macOS</h1>
-                  <p>
-                    Everything you need to know.
-                  </p>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
+    </div>
+</section>
+{% include signup.html %}
+{% assign pages = site.pages | where: "tag", "flashcard-set" %}
+{% include horizontal-gallery.html rows=pages title="Flashcard Collections" id="card-collections"%}
 
 {% include footer.html %}

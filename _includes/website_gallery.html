@@ -4,10 +4,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Website and Marketing</h2>
-                    <h3 class="section-subheading text-muted">I can also create websites and marketing materials.</h3>
+                    <h3 class="section-subheading text-muted">I create speedy and effective websites and marketing materials.</h3>
                 </div>
             </div>
-            {% assign filtered_posts = site.posts | where: "category", "Website" %}
-            {% include masonry_grid.html posts= filtered_posts  %}
+            {% include masonry_grid.html posts=site.categories.Website  %}
         </div>
     </section>

@@ -719,19 +719,31 @@ blockquote .quoted {
   text-align: center;
 }
 
+.alternating-float .row {
+  margin-bottom: 10px;
+}
+
 @media(min-width:992px) {
 
   .alternating-float{
     text-align: left;
 
   }
-  .alternating-float > :nth-child(even) > :first-child{
+  .alternating-float > a:nth-child(even) > div > :first-child{
       float: right;
   }
 }
 
+.alternating-float a, a .thumbnail .caption {
+  color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.no-decoration:hover{
+  text-decoration: none;  
+}
+
 .thumbnail .caption {
-  color: inherit;
+  text-align: center;
 }
 
 @media(min-width:768px) and (max-width:992px) {
@@ -749,4 +761,9 @@ blockquote .quoted {
   #card-gallery .card:nth-child(4n+1){
       clear:left
     }
+}
+
+#sign-up {
+  border-top: 4px double #ca181a;
+  border-bottom: 4px double #ca181a;
 }
