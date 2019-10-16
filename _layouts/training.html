@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<!-- Header -->
+<header style="background-image: url('{{ page.img }}');">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">You can do more with </div>
+            <div class="intro-heading">{% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}</div>
+            <a href="#card-library" class="btn btn-xl page-scroll">Start Learning Them Now</a>
+        </div>
+    </div>
+</header>
+{{ content }}

@@ -2,11 +2,7 @@
 title: Maria Richter-Trummer Architektur - Holding Page
 subtitle: Website Design
 layout: modal
-modal-id: 4
-date: 2019-07-24
-img: MariaRichter-Trummer.jpg
-thumbnail: MariaRichter-Trummer-thumbnail.jpg
-alt: Maria Richter-Trummer Architektur - Holding Page
+img: /img/portfolio/MariaRichter-Trummer.jpg
 project-date: 2019
 client: Maria Richter-Trummer Architektur
 website: https://richter-trummer.github.io/

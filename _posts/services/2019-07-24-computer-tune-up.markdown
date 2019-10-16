@@ -2,10 +2,7 @@
 title: Computer Tune-Up
 subtitle: IT Service
 layout: modal
-modal-id: 8
-date: 2019-09-30
-img: ComputerService.jpg
-thumbnail: ComputerService-thumbnail.jpg
+img: /img/portfolio/ComputerService.jpg
 alt: Full Computer Service
 project-date: 2019
 category: IT Service

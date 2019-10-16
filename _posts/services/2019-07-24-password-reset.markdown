@@ -4,8 +4,7 @@ subtitle: IT Service
 layout: modal
 modal-id: 6
 date: 2019-09-30
-img: PasswordReset.jpg
-thumbnail: PasswordReset-thumbnail.jpg
+img: /img/portfolio/PasswordReset.jpg
 alt: Forgotten Password
 project-date: 2019
 category: IT Service

@@ -714,3 +714,56 @@ blockquote .quoted {
     position: absolute;
     top: 50%;
 }
+
+.alternating-float{
+  text-align: center;
+}
+
+.alternating-float .row {
+  margin-bottom: 10px;
+}
+
+@media(min-width:992px) {
+
+  .alternating-float{
+    text-align: left;
+
+  }
+  .alternating-float > a:nth-child(even) > div > :first-child{
+      float: right;
+  }
+}
+
+.alternating-float a, a .thumbnail .caption {
+  color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.no-decoration:hover{
+  text-decoration: none;  
+}
+
+.thumbnail .caption {
+  text-align: center;
+}
+
+@media(min-width:768px) and (max-width:992px) {
+  #card-gallery .card:nth-child(2n+1){
+      clear:left
+    }
+}
+@media(min-width:992px) and (max-width:1200px) {
+  #card-gallery .card:nth-child(3n+1){
+      clear:left
+    }
+
+}
+@media (min-width:1200px) {
+  #card-gallery .card:nth-child(4n+1){
+      clear:left
+    }
+}
+
+#sign-up {
+  border-top: 4px double #ca181a;
+  border-bottom: 4px double #ca181a;
+}

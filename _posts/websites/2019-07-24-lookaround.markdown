@@ -2,11 +2,7 @@
 title: Sedbergh Lookaround Community Newsletter - Website
 subtitle: Website Design
 layout: modal
-modal-id: 3
-date: 2019-03-26
-img: Lookaround.jpg
-thumbnail: Lookaround-thumbnail.jpg
-alt: Sedbergh Lookaround Community Newsletter - Website
+img: /img/portfolio/Lookaround.jpg
 project-date: 2019
 client: Sedbergh Lookaround Community Newsletter
 website: http://sedberghlookaround.org.uk/

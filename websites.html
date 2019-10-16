@@ -1,0 +1,22 @@
+---
+layout: default
+header-img: /img/header-bg-websites.jpg
+title: Websites
+---
+
+<!-- Header -->
+<header style="background-image: url('{{ page.header-img }}');">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Introduce your brand</div>
+            <div class="intro-heading">With a speedy and effective website.</div>
+            <a href="#website-gallery" class="btn btn-xl page-scroll">See My Examples</a>
+        </div>
+    </div>
+</header>
+
+{% include website_gallery.html %}
+{% assign referrals = site.categories.Website | where_exp: "post", "post.referral" %}
+{% include referral-slider.html referrals=referrals %}
+{% include footer.html %}
+{% include modals.html posts=site.categories.Website %}

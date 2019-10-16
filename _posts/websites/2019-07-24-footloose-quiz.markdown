@@ -2,11 +2,8 @@
 title: Footloose Travel - Quiz Campaign
 subtitle: Marketing Campaign
 layout: modal
-modal-id: 5
-date: 2019-05-20
-img: Footloose.jpg
+img: /img/portfolio/Footloose.jpg
 thumbnail: Footloose-thumbnail.jpg
-alt: Marketing Campaign - Quiz Night for Footloose Travel
 project-date: 2019
 client: Footloose Travel Ltd
 website: http://footloose.co.uk

@@ -1,0 +1,35 @@
+---
+layout: training
+title: Training Resources
+heading: With the Right Skills
+img: /img/header-bg-w10.jpg
+description: |-
+  I have series of flashcards for navigating both Windows 10 and macOS.
+  I will soon add application specific tips and tricks, for example Excel.
+
+  Keyboard shortcuts can save lots of time and help you keep focused on your task -
+  particularly when on a laptop when you do not have a mouse.
+
+  Speed up your work and take the hastle out of simple tasks like printing,
+  copying and pasting.  Working up to more advanced tasks such as minimizing
+  windows and showing your desktop without touching your mouse.
+
+---
+<!-- About Training Materials -->
+<section id="about" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About my Training Materials</h2>
+                <h3 class="section-subheading text-muted">Flashcards are a good way to learn.</h3>
+                {{ page.description | markdownify }}
+            </div>
+        </div>
+
+    </div>
+</section>
+{% include signup.html %}
+{% assign pages = site.pages | where: "tag", "flashcard-set" %}
+{% include horizontal-gallery.html rows=pages title="Flashcard Collections" id="card-collections"%}
+
+{% include footer.html %}

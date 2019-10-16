@@ -2,11 +2,7 @@
 title: iSAMS - Active Directory Data Validation Tooling
 subtitle: Custom Powershell Module
 layout: modal
-modal-id: 2
-date: 2018-03-26
-img: iSAMS.png
-thumbnail: iSAMS-thumbnail.png
-alt: iSAMS - Active Directory Data Validation Tooling
+img: /img/portfolio/iSAMS.png
 project-date: 2018
 client: Sedbergh School
 category: Example

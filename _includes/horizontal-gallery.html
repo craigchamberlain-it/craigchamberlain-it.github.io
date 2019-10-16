@@ -1,0 +1,22 @@
+<section id="{{ includes.id }}" class="bg-light-gray">
+    <div class="container">
+      <h2 class="section-heading text-center">{{ include.title }}</h2>
+      <h3 class="section-subheading text-muted"></h3>
+      <div class="alternating-float">
+        {% for row in include.rows %}
+          <a href="{{ row.url }}">
+              <div class="row">
+                  <div class="col-md-4">
+                    <img src="{{ row.thumbnail }}" class="img-responsive img-centered" alt="{{ row.title }}">
+                  </div>
+                  <div class="col-md-8">
+                    <h3>{{ row.title }}</h3>
+                    {{ row.description | markdownify }}
+                  </div>
+
+              </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+</section>
