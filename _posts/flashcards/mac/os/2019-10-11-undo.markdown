@@ -1,0 +1,11 @@
+---
+title: Undo Previous Action
+subtitle: Command + Z
+layout: modal
+img: /img/flashcards/mac-os/command-z.png
+category: training-card
+tag: mac-os  
+---
+Hold the Command Key and Press "Z" to undo your previously action.
+
+For example editing some text in a document.
