@@ -29,18 +29,17 @@ $('.navbar-collapse ul li a').click(function() {
 
 $('div.modal').on('show.bs.modal', function() {
 	var modal = this;
-	var hash = modal.id;
-	window.location.hash = hash;
-	window.onhashchange = function() {
-		if (!location.hash){
-			$(modal).modal('hide');
-		}
-	};
+	var hash = "#" + modal.id;
+	var title = $(modal).find('h2').text();
+
+  var url = window.location.origin + window.location.pathname + hash;
+  history.pushState({}, title, url);
+
 });
 
-$('div.modal').on('click.dismiss.bs.modal', function() {
-	var newUrl = location.href.slice(0, location.href.indexOf('#'));
-  history.pushState({}, null, newUrl);
+$('.modal').on('click.hidden.bs.modal', function() {
+  var url = window.location.origin + window.location.pathname;
+  history.pushState({}, document.title, url);
 });
 
 $(function() {
@@ -55,6 +54,8 @@ $(function() {
         else{
           $('.modal.in').modal('hide');
           $('.modal-backdrop').remove();
+          var url = window.location.origin + window.location.pathname;
+          history.pushState({}, document.title, url);
         }
     }
     openModalByHash();
