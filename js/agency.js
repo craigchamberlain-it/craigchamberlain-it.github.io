@@ -63,3 +63,33 @@ $(function() {
     window.addEventListener("hashchange", openModalByHash);
 
 });
+
+$(function() {
+    $('button[type=submit]').on('click',function(event){
+      var form = this.closest(".ml-form-embedContainer");
+      var interestGroup = $(form).find(".ml-form-interestGroupsRow");
+      var radios = interestGroup.find(':checkbox');
+      if  (radios.length > 0 && radios.filter(':checked').length == 0){
+          event.preventDefault();
+          interestGroup.addClass("ml-error");
+          if ( $('.notice').length == 0){
+            interestGroup.append('<p class="notice">Please select at least one course to subscribe to.</p>');
+
+          }
+      }
+      else
+      {
+        interestGroup.children('p.notice').remove();
+      }
+
+    }
+
+  );
+
+  if(window.location.pathname == "/windows10/"){
+    $('[value="66182084"]').attr('checked', true);
+  }
+  if(window.location.pathname == "/mac-os/"){
+    $('[value="66212212"]').attr('checked', true);
+  }
+});
