@@ -739,7 +739,7 @@ blockquote .quoted {
 }
 
 .no-decoration:hover{
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .thumbnail .caption {
@@ -747,18 +747,18 @@ blockquote .quoted {
 }
 
 @media(min-width:768px) and (max-width:992px) {
-  #card-gallery .card:nth-child(2n+1){
+  #gallery .card:nth-child(2n+1){
       clear:left
     }
 }
 @media(min-width:992px) and (max-width:1200px) {
-  #card-gallery .card:nth-child(3n+1){
+  #gallery .card:nth-child(3n+1){
       clear:left
     }
 
 }
 @media (min-width:1200px) {
-  #card-gallery .card:nth-child(4n+1){
+  #gallery .card:nth-child(4n+1){
       clear:left
     }
 }
