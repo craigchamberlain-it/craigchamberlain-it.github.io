@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -293,7 +293,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -316,7 +316,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: {{ site.data.template.font.primary }};
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -345,7 +345,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -419,7 +419,7 @@ section h3.section-subheading {
 
 .portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
     font-style: italic;
 }
@@ -528,13 +528,6 @@ footer {
     text-align: center;
 }
 
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
-}
-
 footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
@@ -600,7 +593,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
     font-style: italic;
 }
@@ -739,7 +732,7 @@ blockquote .quoted {
 }
 
 .no-decoration:hover{
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .thumbnail .caption {
@@ -747,18 +740,18 @@ blockquote .quoted {
 }
 
 @media(min-width:768px) and (max-width:992px) {
-  #card-gallery .card:nth-child(2n+1){
+  #gallery .card:nth-child(2n+1){
       clear:left
     }
 }
 @media(min-width:992px) and (max-width:1200px) {
-  #card-gallery .card:nth-child(3n+1){
+  #gallery .card:nth-child(3n+1){
       clear:left
     }
 
 }
 @media (min-width:1200px) {
-  #card-gallery .card:nth-child(4n+1){
+  #gallery .card:nth-child(4n+1){
       clear:left
     }
 }

@@ -1,0 +1,7 @@
+Use following tool to download listed fonts
+https://github.com/neverpanic/google-font-download
+
+"Montserrat:400" "Montserrat:700" \
+"Lato:400" "Lato:700" "Lato:400italic" "Lato:700italic" \
+"Droid Serif:400" "Droid Serif:700" "Droid Serif:400italic" "Droid Serif:700italic" \
+"Roboto Slab:400" "Roboto Slab:100" "Roboto Slab:300" "Roboto Slab:700"
