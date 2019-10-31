@@ -1,0 +1,28 @@
+---
+layout: default
+header-img: /img/header-bg-websites.jpg
+title: Privacy Notice
+---
+<header style="background-image: url('{{ page.header-img }}');">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Craig Chamberlain IT Services</div>
+            <div class="intro-heading">Privacy Notice</div>
+        </div>
+    </div>
+</header>
+<section id="privacy-policy">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+              {% capture my_include %}{% include privacy.md %}{% endcapture %}
+              {{ my_include | markdownify }}
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+{% include footer.html %}
