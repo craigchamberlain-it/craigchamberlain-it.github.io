@@ -16,7 +16,7 @@ title: Websites
 </header>
 
 {% include website_gallery.html %}
-{% assign referrals = site.categories.Website | where_exp: "post", "post.referral" %}
+{% assign referrals = site.websites | where_exp: "post", "post.referral" %}
 {% include referral-slider.html referrals=referrals %}
 {% include footer.html %}
-{% include modals.html posts=site.categories.Website %}
+{% include modals.html posts=site.websites %}

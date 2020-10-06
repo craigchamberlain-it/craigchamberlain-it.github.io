@@ -7,7 +7,7 @@
                     <h3 class="section-subheading text-muted">Recent projects include:</h3>
                 </div>
             </div>
-            {% assign filtered_posts = site.posts | where: "category", "Example" %}
-            {% include masonry_grid.html posts= filtered_posts  %}
+            {% assign examples = site.services | concat: site.examples %}
+            {% include masonry_grid.html posts = examples %}
         </div>
     </section>

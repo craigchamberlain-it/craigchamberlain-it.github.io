@@ -15,4 +15,4 @@ The Sedbergh Lookaround is a community newsletter in the Sedbergh area, run for 
 
 I modernised an existing site and provided a content management system so the editors can add new editions to the back catalogue.
 
-I also set up email for the domain with Googles G-Suite.
+I also set up email for the domain with Google's G-Suite.

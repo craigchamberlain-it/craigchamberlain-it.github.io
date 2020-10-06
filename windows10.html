@@ -8,6 +8,7 @@ description: Save time navigating Windows 10 with keyboard shortcuts.
 ---
 
 {% include signup.html %}
-{% include card-collection.html posts=site.tags.windows10 %}
+{% assign cards = site.flashcards | where: type, 'windows10'  %}
+{% include card-collection.html posts= cards %}
 {% include footer.html %}
-{% include modals.html posts=site.tags.windows10 %}
+{% include modals.html posts= cards %}

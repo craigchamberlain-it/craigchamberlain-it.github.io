@@ -8,6 +8,7 @@ description: Save time navigating Mac OS with keyboard shortcuts.
 ---
 
 {% include signup.html %}
-{% include card-collection.html posts=site.tags.mac-os %}
+{% assign cards = site.flashcards | where: type, 'mac'  %}
+{% include card-collection.html posts= cards %}
 {% include footer.html %}
-{% include modals.html posts=site.tags.mac-os %}
+{% include modals.html posts= cards %}

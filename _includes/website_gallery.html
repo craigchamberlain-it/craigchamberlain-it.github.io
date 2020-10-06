@@ -7,6 +7,7 @@
                     <h3 class="section-subheading text-muted">I create speedy and effective websites and marketing materials.</h3>
                 </div>
             </div>
-            {% include masonry_grid.html posts=site.categories.Website  %}
+            {% assign posts = site.websites | reverse %}
+            {% include masonry_grid.html posts = posts%}
         </div>
     </section>

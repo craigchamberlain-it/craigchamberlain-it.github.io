@@ -32,6 +32,30 @@ social:
 address:
   - line: Sedbergh, UK
 
+collections:
+  websites:
+    output: false
+  services:
+    output: false
+  flashcards:
+    output: false
+  examples:
+    output: false
+
+defaults:
+  - scope:
+      path: "_flashcards/windows" # an empty string here means all files in the project
+    values:
+      type: "windows10"
+  - scope:
+      path: "_flashcards/mac" # an empty string here means all files in the project
+    values:
+      type: "mac"
+    
+
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:   
+  - jekyll-sitemap

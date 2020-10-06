@@ -19,5 +19,5 @@ layout: default
 {% include referral-slider.html referrals=referrals facebook=true %}
 {% include team.html %}
 {% include footer.html %}
-{% assign posts = site.posts | where_exp: "post", "post.category != 'training-card'" | where_exp: "post", "post.category != 'website'" %}
+{% assign posts = site.services | concat: site.examples %}
 {% include modals.html posts=posts %}
