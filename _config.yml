@@ -44,14 +44,13 @@ collections:
 
 defaults:
   - scope:
-      path: "_flashcards/windows" # an empty string here means all files in the project
+      path: "_flashcards/windows" 
     values:
       type: "windows10"
   - scope:
-      path: "_flashcards/mac" # an empty string here means all files in the project
+      path: "_flashcards/mac" 
     values:
       type: "mac"
-    
 
 # Build settings
 markdown: kramdown
