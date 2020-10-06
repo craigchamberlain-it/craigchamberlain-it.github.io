@@ -59,3 +59,4 @@ permalink: pretty
 
 plugins:   
   - jekyll-sitemap
+  - jekyll-feed
