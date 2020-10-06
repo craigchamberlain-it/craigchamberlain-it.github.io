@@ -1,3 +1,10 @@
 ---
 layout: style
 ---
+@media (min-width: 768px) {
+    .row.equal {
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+    }
+  }
